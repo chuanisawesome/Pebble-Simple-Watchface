@@ -1,0 +1,33 @@
+{
+    "author": "chuanliochang@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "my-first-watchface",
+    "pebble": {
+        "displayName": "My First Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_50",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "34c3662f-6448-4290-9917-977dbc0636e1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
